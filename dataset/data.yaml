@@ -1,0 +1,8 @@
+# Cat Breed Detection Dataset
+path: /home/chengrui/wk/objdecthw/dataset
+train: images/train
+val: images/val
+
+# Classes
+nc: 4
+names: ['persian', 'sphynx', 'ragdoll', 'scottish']

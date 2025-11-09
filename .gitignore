@@ -1,0 +1,120 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project-specific: Dataset (large files)
+dataset/*
+!dataset/data.yaml
+dataset/images/
+dataset/labels/
+
+# Project-specific: Models (pretrained weights)
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.engine
+
+# Project-specific: Results (training outputs)
+results/*
+results/**/*.pt
+results/**/*.png
+results/**/*.jpg
+
+# Project-specific: Root level model files
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Project-specific: LaTeX report output
+MyZJUreportTemplate/out/*
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+
+# Keep the main report PDF in root
+!/main.pdf
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Logs
+*.log
+logs/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch
+*.pkl
+*.pth
+
+# Downloaded files (large dataset)
+Cat-Breeds-Detection-Dataset/
+
+# Generated visualization files (can be regenerated)
+dataset_visualization.png
+pretrained_test_result.png
+model_comparison.png
+*.jpg
+*.png
+*.jpeg
+
+# But keep documentation images
+!important_images/
+
+# Claude and plan files
+CLAUDE.md
+plan.md
