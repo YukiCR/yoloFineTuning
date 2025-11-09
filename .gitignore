@@ -104,14 +104,6 @@ logs/
 # Downloaded files (large dataset)
 Cat-Breeds-Detection-Dataset/
 
-# Generated visualization files (can be regenerated)
-dataset_visualization.png
-pretrained_test_result.png
-model_comparison.png
-*.jpg
-*.png
-*.jpeg
-
 # But keep documentation images
 !important_images/
 
